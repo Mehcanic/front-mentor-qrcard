@@ -3,7 +3,8 @@
 /*           */
 
 :root {
-    - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+    /* --space-test: 1px solid red; */
+    --fonts: 'Outfit', sans-serif;
     --thin-font: 400; 
     --thick-font: 700;
     --mobile-size: 375px;
@@ -25,23 +26,52 @@
     padding: 0;
 }
 
+/*       */
+/* Style */
+/*       */
+
 body {
     background-color: hsl(212, 45%, 89%);
-    width: 375px;
+    width: var(--mobile-size);
+    font-family: var(--fonts);
+    margin: auto;
 }
 
 section {
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    width: 360px;
 }
 
 img {
-
+    width: 330px;
+    border-radius: 1rem;
+    margin: 1rem;;
 }
 
 h2 {
-
+    border: var(--space-test);
+    color: var(--color-darkblue);
+    margin: 1rem;
+    width: 300px;
 }
 
 p {
+    border: var(--space-test);
+    color: var(--color-gray);
+    font-size: var(--paragraph-size);
+    margin: 0 1rem 2rem 1rem;
+    width: 300px;
+}
 
+.attribution {
+    margin-top: 2rem;
 }
 
