@@ -1,24 +1,23 @@
-- Mobile: 375px
-- Desktop: 1440px
+/*           */
+/* Variables */
+/*           */
 
-## Colors
+:root {
+    - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+    --thin-font: 400; 
+    --thick-font: 700;
+    --mobile-size: 375px;
+    --desktop-size: 1440px;
+    --color-white: hsl(0, 0%, 100%);
+    --color-gray: hsl(212, 45%, 89%);
+    --color-blue: hsl(220, 15%, 55%);
+    --color-darkblue: hsl(218, 44%, 22%);
+    --paragraph-size: 15px;
+}
 
-- White: hsl(0, 0%, 100%)
-- Light gray: hsl(212, 45%, 89%)
-- Grayish blue: hsl(220, 15%, 55%)
-- Dark blue: hsl(218, 44%, 22%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 15px
-
-### Font
-
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 400, 700
-
+/*       */
+/* Reset */
+/*       */
 
 * {
     box-sizing: border-box;
@@ -46,18 +45,3 @@ p {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
